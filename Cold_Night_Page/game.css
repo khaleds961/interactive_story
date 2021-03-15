@@ -1,0 +1,119 @@
+.bg {
+    background: url(pictures/pic1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg2 {
+    background: url(pictures/pic2.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg3 {
+    background: url(pictures/pic3.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg4 {
+    background: url(pictures/pic4.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg5 {
+    background: url(pictures/pic5.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.p2 {
+    color: rgb(214, 11, 11);
+    font-size: 400%;
+    margin-top: 2%;
+    margin-right: 30%;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.p3, .p4 {
+    color: rgb(214, 11, 11);
+    font-size: 490%;
+    margin-top: 20%;
+    margin-right: 40%;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.title {
+    background-color: rgb(214, 11, 11);
+    font-size: 700%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    border-radius: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.next {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+}
+
+.next a::before {
+    content: "→";
+    display: block;
+    font-size: 700%;
+    font-weight: bolder;
+color: rgb(214, 11, 11);
+}
+
+.back {
+    position: fixed;
+    bottom: 5px;
+    right: 150px;
+}
+
+.back a::before {
+    content: "←";
+    display: block;
+    font-size: 700%;
+    font-weight: bolder;
+    color: rgb(214, 11, 11);
+}
+
+.tit {
+    position: fixed;
+    bottom: 90px;
+    right: 750px;
+}
+
+.tit a::before {
+    content: "  Start Game  ";
+    display: block;
+    font-size: 500%;
+    font-weight: bolder;
+    background-color: rgb(214, 11, 11);
+    color: white;
+    border-radius: 30px;
+}
