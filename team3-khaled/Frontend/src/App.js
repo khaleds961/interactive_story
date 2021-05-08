@@ -6,6 +6,9 @@ import Latest from './components/latest_stories/latest_stories.jsx';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/HomePage/HomePage";
 import Blog_Page from "./components/Blog_Page/Blog";
+import Blog_Write from "./components/Blog_Write/blog_write";
+
+
 
 
 
@@ -17,7 +20,7 @@ function App() {
         <Switch>
          <Route component={Home} path="/" exact   />
           <Route component={Blog_Page} path="/blog"   />
-{/*           <Route component={Yellow} path="/yellow"   /> */}
+          <Route component={Blog_Write} path="/write"   />
          </Switch>
 </BrowserRouter>
 

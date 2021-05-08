@@ -1,6 +1,8 @@
 import { Component } from "react";
 import * as ReactBootSrap from "react-bootstrap";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
+
 
 export default class NavBar extends Component{
     render(){
@@ -12,10 +14,10 @@ export default class NavBar extends Component{
           <ReactBootSrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootSrap.Nav className="mr-auto">
             <ReactBootSrap.Navbar.Brand href="#home">
-                <h2>Daily Blogs</h2>
+              <Link className="Nav_links" to="/"><h2>Daily Blogs</h2></Link>  
                 </ReactBootSrap.Navbar.Brand>
               <ReactBootSrap.Nav.Link href="#features" className="text-light" >
-                <h4>+Write Your Blog</h4>
+               <Link className="Nav_links" to="/write"><h4>+Write Your Blog</h4></Link> 
                 </ReactBootSrap.Nav.Link>
               {/* <ReactBootSrap.Nav.Link href="#pricing">Pricing</ReactBootSrap.Nav.Link> */}
    
