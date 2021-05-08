@@ -1,0 +1,24 @@
+{
+  "name": "mern-exercise-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "cd Backend && npm start",
+    "front": "cd Frontend && npm start",
+    "start": "concurrently --kill-others-on-fail --names \"back,front\" \"npm run back\" \"npm run front\"",
+    "postinstall": "cd front && npm install && cd .. && cd back && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "concurrently": "^6.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "react-alice-carousel": "^2.5.1"
+  }
+}
