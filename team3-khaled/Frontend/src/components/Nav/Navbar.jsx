@@ -14,13 +14,13 @@ export default class NavBar extends Component{
             <ReactBootSrap.Navbar.Brand href="#home">
                 <h2>Daily Blogs</h2>
                 </ReactBootSrap.Navbar.Brand>
-              <ReactBootSrap.Nav.Link href="#features" >
+              <ReactBootSrap.Nav.Link href="#features" className="text-light" >
                 <h4>+Write Your Blog</h4>
                 </ReactBootSrap.Nav.Link>
               {/* <ReactBootSrap.Nav.Link href="#pricing">Pricing</ReactBootSrap.Nav.Link> */}
-
+   
               <h4>
-              <ReactBootSrap.NavDropdown title="Topics" id="collasible-nav-dropdown" >
+              <ReactBootSrap.NavDropdown title="Topics"  id="collasible-nav-dropdown" >
                 <ReactBootSrap.NavDropdown.Item  href="#action/3.1" >Sport</ReactBootSrap.NavDropdown.Item>
                 <ReactBootSrap.NavDropdown.Item href="#action/3.2">IT</ReactBootSrap.NavDropdown.Item>
                 <ReactBootSrap.NavDropdown.Item href="#action/3.3">Politics</ReactBootSrap.NavDropdown.Item>
